@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/b2e22c17bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- menu contenct starts here  -->
+    <section class="w-full">
+      <div class="menu fixed bg-emerald-50 z-20 w-full">
+        <div
+          class="container-2x1 items-center h-16 px-3 py-2 lg:h-24 flex justify-between mb-200 border border-black-200"
+        >
+          <div class="img md:w-1/6">
+            <a href="#"
+              ><img
+                class="h-10 w-20 lg:w-full overflow-auto"
+                src="https://www.langscape.com/wp-content/uploads/2019/03/logo.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="flex">
+            <ul
+              class="lg:flex hidden flex flex-3 my-auto items-center border-black"
+            >
+              <a href=""
+                ><li
+                  class="mx-6 font-semibold ransition ease-in-out delay-150 px-4 p-2 hover:rounded-full hover:text-white"
+                >
+                  Services
+                </li></a
+              >
+              <a href="">
+                <li
+                  class="mx-6 font-semibold ransition ease-in-out delay-150 px-4 p-2 hover:rounded-full hover:text-white"
+                >
+                  Solutions
+                </li></a
+              >
+              <a href="">
+                <li
+                  class="mx-6 font-semibold ransition ease-in-out delay-150 px-4 p-2 hover:rounded-full hover:text-white"
+                >
+                  Contact Us
+                </li></a
+              >
+              <a href="">
+                <li class="mx-6 font-semibold">
+                  <span class="back p-2 px-4 rounded-full text-white"
+                    >Get Quote</span
+                  >
+                </li></a
+              >
+            </ul>
+            <div class="language hidden lg:block">
+              <select
+                name="language"
+                class="p-2 px-4 rounded-full bg-white font-bold border-green-500 border"
+                id="language"
+              >
+                <option class="p-5" value="English">Englsih</option>
+                <option class="p-5" value="tamil">Tamil</option>
+                <option class="p-5" value="hindi">Hindi</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- for mobile design -->
+          <div class="flex items-center lg:hidden">
+            <div class="language pr-5">
+              <select
+                class="py-1 px-2 rounded-full bg-white border-green-500 border"
+                name="language"
+                id="language"
+              >
+                <option value="English">Englsih</option>
+                <option value="tamil">Tamil</option>
+                <option value="hindi">Hindi</option>
+              </select>
+            </div>
+            <div>
+              <button
+                class="lg:hidden text-xl text-blue-300"
+                onclick="buttontoggel()"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <ul
+                id="cringekamalesh"
+                class="lg:hidden hidden absolute right-3 top-15 w-36 pl-4 border-t-blue-400 border border-t-4 mt-3 rounded bg-sky-50 mr-3"
+              >
+                <a href=""
+                  ><li class="py-1 hover:text-gray-500 hover:underline">
+                    services
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:text-gray-500 hover:underline">
+                    Solutions
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:text-gray-500 hover:underline">
+                    Contact Us
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:text-gray-500 hover:underline">
+                    Get quote
+                  </li></a
+                >
+                <a href=""
+                  ><li class="py-1 hover:text-gray-500 hover:underline"></li
+                ></a>
+              </ul>
+            </div>
+          </div>
+          <!-- mobile design end here  -->
+        </div>
+      </div>
+    </section>
+    <!-- menu contend ends here  -->
+
+    <!-- photo -->
+    <div class="photo relative h-36">
+      <img
+        class="absolute mt-10 h-full w-full object-cover md:mt-16"
+        src="https://www.langscape.com/wp-content/uploads/2019/04/service-banner.jpg"
+        alt=""
+      />
+    </div>
+    <!-- photo end here  -->
+
+    <!-- service starts here -->
+    <section>
+      <div
+        class="head flex flex-col md:mb-24 items-center relative md:top-20 top-10"
+      >
+        <h1 class="mt-4 font-old text-2xl md:text-5xl">Service</h1>
+        <p></p>
+        <img
+          class="w-2/6 md:w-1/12 md:mt-8 mt-2"
+          src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+          alt=""
+        />
+
+        <div class="mx-10 md:mx-24 md:mt-10 mt-4">
+          <h1 class="text-gray-600 md:text-4xl md:mt5 text-xl text-center">
+            Translation, Website localization and App localization services
+          </h1>
+        </div>
+        <div class="mx-5 md:mx-8 md:mt-6 md:text-2xl">
+          <p class="text-center mt-4 md:mt-6 md:text-lg text-gray-400 text-sm">
+            Armed with two decades of translation and website localization
+            experience with global companies and major language service
+            providers, Langscape provides you with the best-in-class services.
+            We mobilize our experience, adaptability and discernment and bring
+            you the cutting-edge language solutions.
+          </p>
+          <p class="text-center mt-4 md:mt-6 md:text-lg text-gray-400 text-sm">
+            Content is paramount and delivered through a range of compelling
+            channels, including print, digital, audio or video. It has been
+            proven time and again that translation is the simplest, most vital
+            and cost-effective way of expanding your market. Our global team of
+            translators will help you enhance your brand and increase your
+            market share in every market you target.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center md:mt-24 mx-10">
+          <h1 class="mt-4 text-gray-600 text-2xl text-center">
+            Different content, different approach
+          </h1>
+          <img
+            class="w-2/6 md:w-2/12 mt-2"
+            src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+            alt=""
+          />
+          <div class="mx-5">
+            <p class="text-center md:text-lg mt-4 text-gray-400 text-sm">
+              Our native-level industry-savvy expert translators are ready to
+              provide you with the best quality translation, transcreation and
+              localization services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service ends here -->
+    <!-- test -->
+    <section>
+      <div class="main flex flex-col items-center relative top-20">
+        <div class="somee md:my-10">
+          <div class="head flex flex-col md:hidden items-center">
+            <h1 class="text-xl font-semibold">Translation</h1>
+            <img
+              class="w-2/6 mt-4"
+              src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="content flex flex-col md:flex-row md:mx-10 items-center relative"
+          >
+            <div
+              class="img back relative md:w-1/2 md:h-96 h-40 mt-6 rounded-xl w-48"
+            >
+              <img
+                class="h-full w-full object-cover absolute md:-top-5 md:-left-5 -top-2 -left-2 rounded-lg"
+                src="https://www.langscape.com/wp-content/uploads/2019/04/translation.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="para md:w-1/2 flex flex-col items-center">
+              <div class="head hidden flex flex-col items-center md:block">
+                <h1 class="text-xl font-semibold text-center">Translation</h1>
+                <img
+                  class="w-3/6 mx-auto mt-4 w-full"
+                  src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+                  alt=""
+                />
+              </div>
+              <div class="news px-2 mt-2 py-4">
+                <p
+                  class="text-xs md:px-10 text-gray-600 md:text-sm text-justify font-serif"
+                >
+                  Translation constitutes accurate and faithful transformation
+                  of your source content into other languages. The excellence of
+                  Langscape’s translation service is ensured by a multi-tier QA
+                  system as content goes through translation, editing and
+                  proofreading stages, all handled by professional language
+                  experts and overseen by experienced project managers.
+                  Normally, standard business content – such as correspondence,
+                  legal paperwork, compliance documents and instructions call
+                  for strictly accurate translation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="somee md:my-10">
+          <div class="head flex flex-col md:hidden items-center">
+            <h1 class="text-xl font-semibold">Transcreation</h1>
+            <img
+              class="w-2/6 mt-4"
+              src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="content flex flex-col md:flex-row md:mx-10 items-center relative"
+          >
+            <div
+              class="img back relative md:order-2 md:w-1/2 md:h-96 h-40 mt-6 rounded-xl w-48"
+            >
+              <img
+                class="h-full w-full object-cover absolute md:-top-5 md:-left-5 -top-2 -left-2 rounded-lg"
+                src="https://www.langscape.com/wp-content/uploads/2019/04/transcreation.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="para md:order-1 flex md:w-1/2 flex-col items-center">
+              <div class="head hidden md:block">
+                <h1 class="text-xl font-semibold text-center">Transcreation</h1>
+                <img
+                  class="w-3/6 mx-auto mt-4"
+                  src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+                  alt=""
+                />
+              </div>
+              <div class="news px-2 mt-2 py-4">
+                <p
+                  class="text-xs md:px-10 text-gray-600 md:text-sm text-justify font-serif"
+                >
+                  Transcreation is the best way of bringing creative and
+                  marketing content into another language. The aim is to
+                  translate the content and capture its vibe and tone as well.
+                  Most of marketing, promotional, educational and other
+                  user-oriented content may require creative transcreation. The
+                  migration of digital marketing and social media content into
+                  another language greatly benefits from a sensitive creative
+                  approach.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="somee md:my-10">
+          <div class="head flex flex-col md:hidden items-center">
+            <h1 class="text-xl font-semibold">Localization</h1>
+            <img
+              class="w-2/6 mt-4"
+              src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="content flex flex-col md:flex-row md:mx-10 items-center relative"
+          >
+            <div
+              class="img back relative md:w-1/2 md:h-96 h-40 mt-6 rounded-xl w-48"
+            >
+              <img
+                class="h-full w-full object-cover absolute md:-top-5 md:-left-5 -top-2 -left-2 rounded-lg"
+                src="https://www.langscape.com/wp-content/uploads/2019/04/localization.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="para flex md:w-1/2 flex-col items-center">
+              <div class="head hidden md:block">
+                <h1 class="text-xl font-semibold text-center">Localization</h1>
+                <img
+                  class="w-3/6 mx-auto mt-4"
+                  src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+                  alt=""
+                />
+              </div>
+              <div class="news px-2 mt-2 py-4">
+                <p
+                  class="text-xs md:px-10 text-gray-600 md:text-sm text-justify font-serif"
+                >
+                  As far as finessing and fine-tuning the content, localization
+                  goes beyond translation. It is about translating the text by
+                  adding or modifying content to be better suited to the target
+                  market. It also involves customizing the media assets, such as
+                  images, to enhance the user experience in the context of a
+                  particular culture. Langscape provides website, app, game and
+                  video localization along with other localization services,
+                  rendered by our expert team
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="somee md:my-10">
+          <div class="head flex flex-col md:hidden items-center">
+            <h1 class="text-xl font-semibold">
+              Machine Translation Post-Editing
+            </h1>
+            <img
+              class="w-2/6 mt-4"
+              src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="content flex flex-col md:flex-row md:mx-10 items-center relative"
+          >
+            <div
+              class="img back md:order-2 relative md:w-1/2 md:h-96 h-40 mt-6 rounded-xl w-48"
+            >
+              <img
+                class="h-full w-full object-cover absolute md:-top-5 md:-left-5 -top-2 -left-2 rounded-lg"
+                src="https://www.langscape.com/wp-content/uploads/2019/05/machine-translation.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="para md:order-1 flex md:w-1/2 flex-col items-center">
+              <div class="head hidden md:block">
+                <h1 class="text-xl text-center font-semibold">
+                  Machine Translation Post-Editing
+                </h1>
+                <img
+                  class="w-2/6 mx-auto mt-4"
+                  src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+                  alt=""
+                />
+              </div>
+              <div class="news px-2 mt-2 py-4">
+                <p
+                  class="text-xs md:px-10 text-gray-600 md:text-sm text-justify font-serif"
+                >
+                  Enter the era of AI-powered Machine Translation (MT).
+                  Langscape uses the state of the art Machine Translation
+                  software to translate your content and then employ suitable
+                  editors to edit and enhance the MT output. No MT output
+                  provides you publishing quality result and human expert
+                  editors must be involved thoroughly check and edit the machine
+                  translated content. Langscape has a special list of
+                  translators for this new challenging line of service.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="somee md:my-10">
+          <div class="head flex flex-col md:hidden items-center">
+            <h1 class="text-xl font-semibold">Indian Languages</h1>
+            <img
+              class="w-3/6 mt-4"
+              src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="content flex flex-col md:flex-row md:mx-10 items-center relative"
+          >
+            <div
+              class="img back relative md:w-1/2 md:h-96 h-40 mt-6 rounded-xl w-48"
+            >
+              <img
+                class="h-full w-full object-cover absolute -top-2 md:-top-5 md:-left-5 -left-2 rounded-lg"
+                src="https://www.langscape.com/wp-content/uploads/2019/04/indian-languages.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="para flex md:w-1/2 flex-col items-center">
+              <div class="head hidden md:block">
+                <h1 class="text-xl text-center font-semibold">
+                  Indian Languages
+                </h1>
+                <img
+                  class="w-3/6 mx-auto mt-4"
+                  src="https://www.langscape.com/wp-content/uploads/2019/03/hdg-btm-line.png"
+                  alt=""
+                />
+              </div>
+              <div class="news px-2 mt-2 py-4">
+                <p
+                  class="text-xs md:px-10 text-gray-600 md:text-sm text-justify font-serif"
+                >
+                  Langscape is based on Chennai, India. For the last two
+                  decades, it provides translation, localization and original
+                  content development for Indian languages include Assamese,
+                  Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia,
+                  Punjabi, Tamil, Telugu, Urdu and other languages. Langscape
+                  offers to end services for Indian languages. And global
+                  players including Microsoft, Lionbridge, RWS Moravia, Venga
+                  Global are some of our Indic language clients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- test end here  -->
+
+    <!-- footer -->
+    <footer>
+      <div class="h-40 mt-36">
+        <div
+          class="bg-cover bg-center h-full bg-no-repeat"
+          style="
+            background-image: url('https://www.langscape.com/wp-content/uploads/2019/04/footer-bg.jpg');
+          "
+        >
+          <div class="flex flex-col h-full w-full text-white items-center">
+            <ul class="w-1/2">
+              <li><h1 class="text-2xl mt-2 text-center">Langscape</h1></li>
+            </ul>
+
+            <ul class="flex justify-around md:w-1/3 md:mt-6 mt-4 w-1/2">
+              <li>
+                <i
+                  class="fa-brands p-2 rounded-full border border-green-200 hover:bg-white hover:text-blue-400 fa-facebook"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands p-2 rounded-full border border-green-200 hover:bg-white hover:text-blue-400 fa-square-twitter"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands p-2 rounded-full border border-green-200 hover:bg-white hover:text-blue-400 fa-linkedin"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands p-2 rounded-full border border-green-200 hover:bg-white hover:text-blue-400 fa-instagram"
+                ></i>
+              </li>
+            </ul>
+
+            <ul class="flex flex-wrap justify-around md:mt-8 mt-2 w-5/6">
+              <li>
+                <a class="border-r border-r-white pr-1 hover:underline" href=""
+                  >About Us
+                </a>
+              </li>
+              <li>
+                <a class="border-r border-r-white pr-1 hover:underline" href=""
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a class="border-r border-r-white pr-1 hover:underline" href=""
+                  >Solutions</a
+                >
+              </li>
+              <li>
+                <a class="border-r border-r-white pr-1 hover:underline" href=""
+                  >Get Quote</a
+                >
+              </li>
+              <li>
+                <a class="border-r border-r-white pr-1 hover:underline" href=""
+                  >Become A translator</a
+                >
+              </li>
+              <li><a class="hover:underline" href="">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end here -->
+
+    <!-- copyright -->
+
+    <section>
+      <div class="copy">
+        <div
+          class="grid text-xs sm:tex-sm p-4 bg-gray-800 text-gray-100 sm:grid-cols-2"
+        >
+          <ul class="mx-auto">
+            <li>
+              <p>
+                <span> &copy; </span> 2022 Langscape Language Solutions Pvt Ltd.
+                All Rights Reserved.
+              </p>
+            </li>
+          </ul>
+          <ul class="flex justify-center w-full">
+            <li class="border-r border-r-white">Terms of agreement</li>
+            <li class="md:ml-4 ml-2">Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- copyright end  -->
+    <script src="./js/pallu.js"></script>
+  </body>
+</html>
